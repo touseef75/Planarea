@@ -44,25 +44,19 @@ let num = 1;
 let img = document.querySelector("#img");
 img.addEventListener("click",function(){
     if(num == 1){
-        e1.innerHTML = "Mouth";
+        e1.innerHTML = "Eye";
         num = 2;
     }else if(num == 2){
-        e2.innerHTML = "Pharynx";
+        e2.innerHTML = "Intestine";
         num = 3;
     }else if(num == 3){
-        e3.innerHTML = "Oesophagus";
+        e3.innerHTML = "Intestinal diverticula";
         num = 4;
     }else if(num == 4){
-        e4.innerHTML = "Calciferous glands";
+        e4.innerHTML = "Pharynx";
         num = 5;
     }else if(num == 5){
-        e5.innerHTML = "Crop";
+        e5.innerHTML = "Opening of Pharynx";
         num = 6;
-    }else if(num == 6){
-        e6.innerHTML = "Gizzard";
-        num = 7;
-    }else if(num == 7){
-        e7.innerHTML = "Intestine";
-        num = 8;
     }
 })
