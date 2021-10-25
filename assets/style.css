@@ -4,6 +4,9 @@
     box-sizing: border-box;
     
 }
+#p1,#p2,#p3{
+  height: 40vh;
+}
 
 @font-face {
   font-family: jameelNoori;
@@ -74,7 +77,14 @@ p{
     text-align: center;
     font-family: mi';
 }
-
+span{
+	color: white;
+	font-size: 35px;
+	text-shadow: -1px 1px 2px #000,
+				  1px 1px 2px #000,
+				  1px -1px 0 #000,
+				  -1px -1px 0 #000;
+}
 
    @media screen and (max-width:768px){
        .container-fluid{
