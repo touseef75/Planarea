@@ -6,6 +6,7 @@
 }
 #p1,#p2,#p3{
   height: 40vh;
+  text-align: justify;
 }
 
 @font-face {
